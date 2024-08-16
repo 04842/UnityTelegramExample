@@ -5,6 +5,9 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Networking;
 
+    public string chat_id = "EVN_CHAT_ID"; // ID (you can know your id via @userinfobot)
+    public string TOKEN = "EVN_BOT_TOKEN"; // bot token (@BotFather)
+
 public class Telegram : MonoBehaviour
 {
     public string chat_id = "0000000"; // ID (you can know your id via @userinfobot)
